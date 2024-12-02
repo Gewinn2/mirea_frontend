@@ -1,0 +1,13 @@
+#successMessage {
+    position: fixed;
+    top: 50%;
+    left: 45%;
+}
+
+.message-content {
+    border: 1px solid;
+    text-align: center;
+    font-size: 20px;
+    width: 300px;
+    box-shadow: 3px 3px 0 0 rgb(0, 0, 0);
+}

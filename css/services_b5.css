@@ -1,0 +1,174 @@
+* {
+    font-family: "PT Sans Narrow", sans-serif;
+    font-size: 22px;
+}
+
+#header-navigations {
+    background-color: rgb(175, 250, 255);
+}
+
+.order-container {
+    background-color: rgb(17, 204, 214);
+    padding: 5px;
+    margin: 20px 0;
+    border: 1px solid;
+}
+
+.order-container img{
+    aspect-ratio: 1;
+}
+
+.order-container:hover {
+    transform: scale(1.1);
+}
+
+.order-button {
+    background-color: rgb(235, 222, 194);
+    margin: 10px auto 0;
+    display: block;
+}
+
+.accordion_my {
+    margin: 20px;
+}
+
+.accordion-button{
+    background-color: rgb(17, 204, 214);
+}
+
+.accordion-button:not(.collapsed){
+    background-color: rgb(17, 204, 214);
+}
+
+.modal {
+    display: none; /* Скрываем модальное окно по умолчанию */
+    position: fixed;
+    z-index: 1001;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0); /* Черный фон */
+    background-color: rgba(0,0,0,0.4); /* Полупрозрачный фон */
+}
+
+.modal-content {
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    margin: 15% auto; /* Центрируем модальное окно */
+    padding: 20px;
+    border: 1px solid #888;
+    width:70%; /* Ширина модального окна */
+    font-size: 24px;
+}
+
+.country {
+    font-size: 20px;
+    background-color: rgb(199, 255, 241);
+}
+
+#contactForm {
+    max-width: 500px; /* Ограничим ширину формы */
+    margin: 15px; /* Центрирование формы */
+}
+
+.field {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 1em;
+}
+
+.field label {
+    min-width: 150px; /* Ширина для всех лейблов */
+    margin-right: 1em;
+}
+
+input, textarea {
+    width: 100%; /* Поля для ввода будут растягиваться по ширине контейнера */
+    padding: 0.5em;
+    margin-bottom: 0.5em;
+    box-sizing: border-box; /* Это гарантирует правильное вычисление ширины полей */
+    background-color: rgb(199, 255, 241);
+}
+
+.field input[type="checkbox"] {
+    vertical-align: middle;
+}
+
+.close {
+    color: #aaa; /* Цвет кнопки закрытия */
+    margin-left: auto;
+    font-size: 28px;
+    width: 7%;
+    font-weight: bold;
+}
+
+#send-button {
+    width: 200px;
+    height: 50px;
+    font-size: 22px;
+    display: block;
+    margin: auto;
+    box-shadow: 3px 3px 0 0 rgb(0, 0, 0);
+    background-color:#6982c6;
+    border-radius: 20px;
+}
+
+#send-button:hover {
+    font-size: larger;
+    width: 300px;
+    box-shadow: 3px 3px 0 0 rgb(0, 0, 0);
+    background-color:#224092;
+    color: #fefefe;
+}
+
+#send-button:active {
+    font-size: larger;
+    width: 300px;
+    box-shadow: 3px 3px 0 0 rgb(0, 0, 0);
+    background-color:#494b4e;
+    color: #fefefe;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+@media (max-width: 2000px) {
+    .navbar {
+        display: none;
+    }
+}
+
+@media (max-width: 1200px) {
+    .navbar {
+        display: none;
+    }
+}
+
+@media (max-width: 1000px) {
+    .navbar {
+        display: none;
+    }
+}
+
+@media (max-width: 768px) {
+    .navbar {
+        display: none;
+    }
+}
+
+@media (max-width: 480px) {
+    .navbar {
+        display: block;
+    }
+
+    .nav-full {
+        display: none;
+    }
+}
