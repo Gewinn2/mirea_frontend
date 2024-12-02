@@ -54,10 +54,10 @@ table {
     border: 3px solid;
     background-color: rgb(235, 222, 194);
     font-size: 22px;
-    display: block;
     overflow-x: auto;
     overflow-y: hidden;
     white-space: nowrap;
+    width: 100%;
 }
 
 th, td {
