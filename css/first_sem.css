@@ -30,7 +30,7 @@ a:active {
 }
 
 .content {
-    width: 80%;
+    width: 100%;
     padding: 15px;
     word-wrap: break-word;
     font-size: 18px;
@@ -122,6 +122,7 @@ tr:hover {
 
     table {
         margin-left: -5px;
+        display: block;
     }
     
     #map {
