@@ -1,6 +1,6 @@
 * {
-    font-family: "PT Sans Narrow", sans-serif;
-    font-size: 22px;
+    font-family: "PT Sans Narrow", sans-serif !important;
+    font-size: 22px !important;
 }
 
 body {
