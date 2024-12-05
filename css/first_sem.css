@@ -37,12 +37,19 @@ a:active {
     box-sizing: border-box;
 }
 
+#toggleButton {
+    cursor: pointer;
+    color: blue;
+    text-decoration: underline;
+}
+
 .table {
     width: 100%;
 }
 
 #table1 {
     width: 80%;
+    display: none;
 }
 
 #table2 {
